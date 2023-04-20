@@ -1,0 +1,70 @@
+
+body{
+    background-image: url(6925962.jpg);
+}
+
+.filmeInfo{
+    background-color: rgba(240, 248, 255, 0.808);
+    margin: auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.filmeInfo h1{
+    margin: 14px 0;
+
+}
+
+.filmeInfo img{
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.filmeInfo h3{
+    margin-top: 14px;
+}
+
+.filmeInfo span{
+    margin: 8px 0;
+}
+
+.area-buttons{
+    height: 85px;
+    border-bottom-left-radius: 8px;
+}
+
+.area-buttons button{
+    margin-top: 14px;
+    margin-left: 0px;
+    margin-right: 12px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.area-buttons a:hover{
+    color: aliceblue;
+}
