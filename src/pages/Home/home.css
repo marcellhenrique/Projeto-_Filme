@@ -4,7 +4,8 @@ body{
 }
 
 .lista-filmes{
-    max-width: 450px;
+    max-width: 400px;
+    min-width: 300px;
     margin: 18px auto;
 }
 

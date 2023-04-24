@@ -5,35 +5,39 @@ body{
 
 .filmeInfo{
     background-color: rgba(240, 248, 255, 0.808);
-    margin: auto;
-    margin-top: 18px;
+    margin: 18px auto;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    padding: 0 8px;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 20px;
     align-items: center;
     border-radius: 8px;
 }
 
 .filmeInfo h1{
-    margin: 14px 0;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
 
 }
 
 .filmeInfo img{
     border-radius: 8px;
-    width: 800px;
     max-width: 100%;
-    max-height: 340px;
+    max-height: 100%;
     object-fit: cover;
 }
 
 .filmeInfo h3{
     margin-top: 14px;
+    
 }
 
 .filmeInfo span{
     margin: 8px 0;
+    text-align: center;
 }
 
 .area-buttons{

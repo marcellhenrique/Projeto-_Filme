@@ -35,7 +35,7 @@ function Favoritos(){
 
                             <div>
                                 <button className="botao1">
-                                    <a rel="internal" href={`http://localhost:3000/filmes/${item.id}`}>
+                                    <a rel="internal" href={`/filmes/${item.id}`}>
                                         Detalhes
                                     </a>
                                 </button>
